@@ -12,7 +12,7 @@
 
        <h3>Menu</h3>
        <div class="menu">
-        <router-link class="button" to="/">
+        <router-link class="button" to="/home">
             <span class="material-icons">home</span>
             <span class="text">Home</span>
         </router-link>
@@ -36,6 +36,10 @@
         <router-link class="button" to="/settings">
             <span class="material-icons">settings</span>
             <span class="text">Settings</span>
+        </router-link>
+            <router-link class="button" to="/logout">
+            <span class="material-icons">logout</span>
+            <span class="text">Logout</span>
         </router-link>
        </div>       
     </aside>  
