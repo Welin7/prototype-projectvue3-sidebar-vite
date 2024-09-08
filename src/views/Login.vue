@@ -1,5 +1,6 @@
 <template>
     <div class="login-container">
+      <img src="@/assets/logo_finance.png" alt="Logo" class="logo" />
       <h1>Login</h1>
       <form @submit.prevent="login">
         <div>
@@ -35,12 +36,17 @@
   
   <style scoped>
   .login-container {
-    max-width: 300px;
+    max-width: 800px;
     margin: 100px auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    width: 256px;
+    margin-bottom: 40px; 
   }
   
   h1 {
